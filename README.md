@@ -1,4 +1,4 @@
-# Aura - GDG[x]
+# GDG-Pune Website
 [![MadeWithVueJs.com shield](https://madewithvuejs.com/storage/repo-shields/1444-shield.svg)](https://madewithvuejs.com/p/aura/shield-link)
 <!-- [![Build Status](https://travis-ci.org/Vrijraj/aura.svg?branch=master)](https://travis-ci.org/Vrijraj/aura) -->
 
@@ -25,50 +25,14 @@ The template is created by [GDG Jalandhar](https://meetup.com/GDG-Jalandhar/) te
 
 
 ## Getting Started
-1. [Fork repository](https://github.com/Vrijraj/aura/fork) and clone it locally
+1. Clone repository locally
 1. Install project dependencies: `npm install` 
-1. Find the [Meetup API Key](https://secure.meetup.com/meetup_api/key/) and paste it [here](/src/config/key.js), also replace the chapter URL from `Meetup.com/[gdg-chapter-url]`
+1. Before any changes , create branch with name feature/* OR bugfix/* OR newchange/*, only this names of branch allowed to merge with repository.
 1. Compiles and hot-reloads for development: `npm run serve`
-1. Update `Meta Tag`, `Title Tag` and [Google Analytics Code](https://analytics.google.com/analytics/web/#/) from [Basic Info](/public/index.html), [manifest.json](/public/manifest.json) and [Resources](/src/assets/data)
-1. For the production: `npm run build` and then one dir will be created `dist`
 1. For testing: `npm run test`
-
-## Deploy your Web App on Firebase
-
-1. Setup Environment for the Firebase deployment
-   * Install Firebase CLI: `npm i -g firebase-tools`
-1. Create [Firebase account](https://console.firebase.google.com) and login into [Firebase CLI](https://firebase.google.com/docs/cli/): `firebase login`
-1. Open Terminal/CMD/Powershell in your dir.
-1. Now type `firebase login` command in your Terminal/CMD/Powershell. 
-1. Type `firebase init`.
-1. Select the project by using the arrow keys.
-1. Then Select the `Firebase Hosting` by using Spacebar and arrow key.
-1. Click `No` for Single page web app.
-1. Type `dist`.
-1. Some by default file will be created successfully.
-1. Run locally
-   * `firebase serve` or `npm run serve` 
-1. Update Firebase.json file
-    ```js
-        {
-            "hosting": {
-                "public": "dist",
-                "rewrites": [ {
-                    "source": "**",
-                    "destination": "/index.html"
-                } ],
-                "ignore": [
-                    "firebase.json",
-                    "**/.*",
-                    "**/node_modules/**"
-                ]
-            }
-        }
-    ```
-1. Build and deploy
-   * `firebase deploy` or `npm run deploy` 
-
-
+1. After verfication of changes locally, commit change and push code to same branch which you have created. 
+1. Create pull request for merging.
+1. Add Screenshots of any UI changes, add description whatever changes you have made for.
 
 ### Run your tests
 1. For Test: `npm run test`
